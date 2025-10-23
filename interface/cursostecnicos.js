@@ -77,11 +77,9 @@ async function carregarCursos() {
   }
 }
 
-// Inicializar
 document.addEventListener('DOMContentLoaded', function () {
   carregarCursos();
 
-  // Alternar entre visualização em grid e lista
   const viewButtons = document.querySelectorAll('.view-btn');
   const courseList = document.querySelector('.course-list');
 

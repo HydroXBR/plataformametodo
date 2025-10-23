@@ -1,96 +1,96 @@
 // Mapeamento de ícones para categorias
 const categoryIcons = {
-    'Administração': 'fas fa-briefcase',
-    'Agricultura': 'fas fa-seedling',
-    'Artes': 'fas fa-paint-brush',
-    'Assistência Social': 'fas fa-hands-helping',
-    'Biologia': 'fas fa-dna',
-    'Concursos Públicos': 'fas fa-university',
-    'Construção Civil': 'fas fa-building',
-    'Contabilidade e Finanças': 'fas fa-coins',
-    'Direito': 'fas fa-balance-scale',
-    'Educação': 'fas fa-chalkboard-teacher',
-    'ENEM': 'fas fa-graduation-cap',
-    'Gastronomia': 'fas fa-utensils',
-    'Gestão de Pessoas': 'fas fa-users',
-    'Idiomas': 'fas fa-language',
-    'Indústria e Tecnologia': 'fas fa-industry',
-    'Informática': 'fas fa-laptop-code',
-    'Logística': 'fas fa-truck',
-    'Marketing e Vendas': 'fas fa-bullhorn',
-    'Meio Ambiente': 'fas fa-leaf',
-    'Moda': 'fas fa-tshirt',
-    'Outros Cursos': 'fas fa-ellipsis-h',
-    'Profissões': 'fas fa-user-tie',
-    'Psicologia': 'fas fa-brain',
-    'Religião': 'fas fa-cross',
-    'Saúde e Bem-estar': 'fas fa-heartbeat',
-    'Segurança no Trabalho': 'fas fa-hard-hat',
-    'Turismo': 'fas fa-plane'
+  'Administração': 'fas fa-briefcase',
+  'Agricultura': 'fas fa-seedling',
+  'Artes': 'fas fa-paint-brush',
+  'Assistência Social': 'fas fa-hands-helping',
+  'Biologia': 'fas fa-dna',
+  'Concursos Públicos': 'fas fa-university',
+  'Construção Civil': 'fas fa-building',
+  'Contabilidade e Finanças': 'fas fa-coins',
+  'Direito': 'fas fa-balance-scale',
+  'Educação': 'fas fa-chalkboard-teacher',
+  'ENEM': 'fas fa-graduation-cap',
+  'Gastronomia': 'fas fa-utensils',
+  'Gestão de Pessoas': 'fas fa-users',
+  'Idiomas': 'fas fa-language',
+  'Indústria e Tecnologia': 'fas fa-industry',
+  'Informática': 'fas fa-laptop-code',
+  'Logística': 'fas fa-truck',
+  'Marketing e Vendas': 'fas fa-bullhorn',
+  'Meio Ambiente': 'fas fa-leaf',
+  'Moda': 'fas fa-tshirt',
+  'Outros Cursos': 'fas fa-ellipsis-h',
+  'Profissões': 'fas fa-user-tie',
+  'Psicologia': 'fas fa-brain',
+  'Religião': 'fas fa-cross',
+  'Saúde e Bem-estar': 'fas fa-heartbeat',
+  'Segurança no Trabalho': 'fas fa-hard-hat',
+  'Turismo': 'fas fa-plane'
 };
 
 // Carga horária padrão para ícones de clock
 const cargaHoraria = [
-    'Carga horária de 10 horas',
-    'Carga horária de 20 horas',
-    'Carga horária de 30 horas',
-    'Carga horária de 40 horas',
-    'Carga horária de 50 horas',
-    'Carga horária de 60 horas',
-    'Carga horária de 80 horas'
+  'Carga horária de 10 horas',
+  'Carga horária de 20 horas',
+  'Carga horária de 30 horas',
+  'Carga horária de 40 horas',
+  'Carga horária de 50 horas',
+  'Carga horária de 60 horas',
+  'Carga horária de 80 horas'
 ];
 
 class CourseEnrollment {
-    constructor() {
-        this.coursesData = null;
-        this.currentCategory = null;
-        this.init();
-    }
+  constructor() {
+    this.coursesData = null;
+    this.currentCategory = null;
+    this.init();
+  }
 
-    async init() {
-        await this.loadCoursesData();
-        this.renderCategories();
-        this.setupEventListeners();
-    }
+  async init() {
+    await this.loadCoursesData();
+    this.renderCategories();
+    this.setupEventListeners();
+  }
 
-    async loadCoursesData() {
-        try {
-            const response = await fetch('./lista.json');
-            if (!response.ok) throw new Error('Erro ao carregar cursos');
-            this.coursesData = await response.json();
-        } catch (error) {
-            console.error('Erro ao carregar dados:', error);
-            this.showError('Erro ao carregar cursos. Tente novamente.');
-        }
+  async loadCoursesData() {
+    try {
+      const response = await fetch('./lista.json');
+      if (!response.ok) throw new Error('Erro ao carregar cursos');
+      this.coursesData = await response.json();
+    } catch (error) {
+      console.error('Erro ao carregar dados:', error);
+      this.showError('Erro ao carregar cursos. Tente novamente.');
     }
+  }
 
-    renderCategories() {
-        const grid = document.getElementById('categories-grid');
-        
-        if (!this.coursesData) {
-            grid.innerHTML = `
+  renderCategories() {
+    const grid = document.getElementById('categories-grid');
+
+    if (!this.coursesData) {
+      grid.innerHTML = `
                 <div class="empty-state">
                     <i class="fas fa-exclamation-triangle empty-icon"></i>
                     <h3>Erro ao carregar categorias</h3>
                     <p>Não foi possível carregar a lista de cursos.</p>
                 </div>
             `;
-            return;
-        }
+      return;
+    }
 
-        const categories = Object.keys(this.coursesData);
-        const totalCourses = categories.reduce((total, category) => 
-            total + (this.coursesData[category]?.length || 0), 0
-        );
+    const categories = Object.keys(this.coursesData);
+    const totalCourses = categories.reduce((total, category) =>
+      total + (this.coursesData[category]?.length || 0), 0
+    );
 
-        document.getElementById('courses-count').textContent = 
-            `${categories.length} categorias • ${totalCourses} cursos disponíveis`;
+    document.getElementById('courses-count').textContent =
+      `${categories.length} categorias • ${totalCourses} cursos disponíveis`;
 
-        grid.innerHTML = categories.map(category => {
-            const courseCount = this.coursesData[category]?.length || 0;
-            const icon = categoryIcons[category] || 'fas fa-book';
-            
-            return `
+    grid.innerHTML = categories.map(category => {
+      const courseCount = this.coursesData[category]?.length || 0;
+      const icon = categoryIcons[category] || 'fas fa-book';
+
+      return `
                 <div class="category-card" data-category="${category}">
                     <div class="category-icon">
                         <i class="${icon}"></i>
@@ -99,13 +99,13 @@ class CourseEnrollment {
                     <p>Explore cursos especializados</p>
                 </div>
             `;
-        }).join('');
+    }).join('');
 
-        // Adicionar categorias de carga horária
-        cargaHoraria.forEach(horas => {
-            const card = document.createElement('div');
-            card.className = 'category-card';
-            card.innerHTML = `
+    // Adicionar categorias de carga horária
+    cargaHoraria.forEach(horas => {
+      const card = document.createElement('div');
+      card.className = 'category-card';
+      card.innerHTML = `
                 <div class="category-icon">
                     <i class="fas fa-clock"></i>
                 </div>
@@ -113,16 +113,16 @@ class CourseEnrollment {
                 <p>Cursos com duração específica</p>
                 <span class="course-count">Vários cursos</span>
             `;
-            grid.appendChild(card);
-        });
-    }
+      grid.appendChild(card);
+    });
+  }
 
-    renderCourses(category) {
-        const main = document.querySelector('.main-content');
-        const courses = this.coursesData[category];
-        
-        if (!courses || courses.length === 0) {
-            main.innerHTML = `
+  renderCourses(category) {
+    const main = document.querySelector('.main-content');
+    const courses = this.coursesData[category];
+
+    if (!courses || courses.length === 0) {
+      main.innerHTML = `
                 <div class="back-header">
                     <button class="btn-back" id="voltar-categorias">
                         <i class="fas fa-arrow-left"></i>
@@ -136,8 +136,8 @@ class CourseEnrollment {
                     <p>Não há cursos disponíveis nesta categoria no momento.</p>
                 </div>
             `;
-        } else {
-            main.innerHTML = `
+    } else {
+      main.innerHTML = `
                 <div class="back-header">
                     <button class="btn-back" id="voltar-categorias">
                         <i class="fas fa-arrow-left"></i>
@@ -149,8 +149,8 @@ class CourseEnrollment {
                 <div class="courses-grid" id="courses-container"></div>
             `;
 
-            const container = document.getElementById('courses-container');
-            container.innerHTML = courses.map(course => `
+      const container = document.getElementById('courses-container');
+      container.innerHTML = courses.map(course => `
                 <div class="course-card">
                     <div class="course-image">
                         <img src="${course.imagem || 'https://via.placeholder.com/400x200?text=Curso'}" alt="${course.titulo}">
@@ -186,17 +186,17 @@ class CourseEnrollment {
                     </div>
                 </div>
             `).join('');
-        }
-
-        this.setupCourseEvents();
-        document.getElementById('voltar-categorias').addEventListener('click', () => {
-            this.showCategories();
-        });
     }
 
-    showCategories() {
-        const main = document.querySelector('.main-content');
-        main.innerHTML = `
+    this.setupCourseEvents();
+    document.getElementById('voltar-categorias').addEventListener('click', () => {
+      this.showCategories();
+    });
+  }
+
+  showCategories() {
+    const main = document.querySelector('.main-content');
+    main.innerHTML = `
             <div class="content-header">
                 <div class="header-title">
                     <h1>Matricular Novo Curso</h1>
@@ -210,9 +210,9 @@ class CourseEnrollment {
                     <div class="filter-options">
                         <select id="filter-category">
                             <option value="">Todas as categorias</option>
-                            ${Object.keys(categoryIcons).map(cat => 
-                                `<option value="${cat}">${cat}</option>`
-                            ).join('')}
+                            ${Object.keys(categoryIcons).map(cat =>
+      `<option value="${cat}">${cat}</option>`
+    ).join('')}
                         </select>
                     </div>
                 </div>
@@ -225,175 +225,175 @@ class CourseEnrollment {
                 <div class="categories-grid" id="categories-grid"></div>
             </section>
         `;
-        
-        this.renderCategories();
-        this.setupEventListeners();
-    }
 
-    setupEventListeners() {
-        // Categorias
-        document.addEventListener('click', (e) => {
-            const categoryCard = e.target.closest('.category-card');
-            if (categoryCard) {
-                const category = categoryCard.dataset.category;
-                if (category) {
-                    this.renderCourses(category);
-                }
-            }
-        });
+    this.renderCategories();
+    this.setupEventListeners();
+  }
 
-        // Pesquisa
-        const searchInput = document.getElementById('search-input');
-        if (searchInput) {
-            searchInput.addEventListener('input', (e) => {
-                this.filterCategories(e.target.value);
-            });
+  setupEventListeners() {
+    // Categorias
+    document.addEventListener('click', (e) => {
+      const categoryCard = e.target.closest('.category-card');
+      if (categoryCard) {
+        const category = categoryCard.dataset.category;
+        if (category) {
+          this.renderCourses(category);
         }
+      }
+    });
 
-        // Filtro
-        const filterSelect = document.getElementById('filter-category');
-        if (filterSelect) {
-            filterSelect.addEventListener('change', (e) => {
-                this.filterCategoriesByCategory(e.target.value);
-            });
-        }
+    // Pesquisa
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        this.filterCategories(e.target.value);
+      });
     }
 
-    setupCourseEvents() {
-        // Botões de matrícula
-        document.querySelectorAll('.btn-enroll').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                this.showEnrollmentModal(btn.dataset);
-            });
-        });
-
-        // Botões de detalhes
-        document.querySelectorAll('.btn-details').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.stopPropagation();
-                // Implementar visualização de detalhes do curso
-                alert('Funcionalidade de detalhes em desenvolvimento');
-            });
-        });
+    // Filtro
+    const filterSelect = document.getElementById('filter-category');
+    if (filterSelect) {
+      filterSelect.addEventListener('change', (e) => {
+        this.filterCategoriesByCategory(e.target.value);
+      });
     }
+  }
 
-    showEnrollmentModal(courseData) {
-        const modal = document.getElementById('confirm-modal');
-        const img = document.getElementById('modal-img');
-        const titulo = document.getElementById('modal-titulo');
-        const descricao = document.getElementById('modal-descricao');
+  setupCourseEvents() {
+    // Botões de matrícula
+    document.querySelectorAll('.btn-enroll').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.showEnrollmentModal(btn.dataset);
+      });
+    });
 
-        img.src = courseData.img || 'https://via.placeholder.com/200';
-        img.alt = courseData.titulo;
-        titulo.textContent = courseData.titulo;
-        descricao.textContent = courseData.descricao || 'Sem descrição disponível.';
+    // Botões de detalhes
+    document.querySelectorAll('.btn-details').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        // Implementar visualização de detalhes do curso
+        alert('Funcionalidade de detalhes em desenvolvimento');
+      });
+    });
+  }
 
-        modal.style.display = 'flex';
+  showEnrollmentModal(courseData) {
+    const modal = document.getElementById('confirm-modal');
+    const img = document.getElementById('modal-img');
+    const titulo = document.getElementById('modal-titulo');
+    const descricao = document.getElementById('modal-descricao');
 
-        // Eventos do modal
-        document.getElementById('modal-close').onclick = () => {
-            modal.style.display = 'none';
-        };
+    img.src = courseData.img || 'https://via.placeholder.com/200';
+    img.alt = courseData.titulo;
+    titulo.textContent = courseData.titulo;
+    descricao.textContent = courseData.descricao || 'Sem descrição disponível.';
 
-        document.getElementById('cancelar').onclick = () => {
-            modal.style.display = 'none';
-        };
+    modal.style.display = 'flex';
 
-        document.getElementById('confirmar').onclick = () => {
-            this.enrollInCourse(courseData.id, courseData.titulo);
-            modal.style.display = 'none';
-        };
+    // Eventos do modal
+    document.getElementById('modal-close').onclick = () => {
+      modal.style.display = 'none';
+    };
 
-        // Fechar modal clicando fora
-        modal.onclick = (e) => {
-            if (e.target === modal) {
-                modal.style.display = 'none';
-            }
-        };
+    document.getElementById('cancelar').onclick = () => {
+      modal.style.display = 'none';
+    };
+
+    document.getElementById('confirmar').onclick = () => {
+      this.enrollInCourse(courseData.id, courseData.titulo);
+      modal.style.display = 'none';
+    };
+
+    // Fechar modal clicando fora
+    modal.onclick = (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    };
+  }
+
+  enrollInCourse(courseId, courseTitle) {
+    let matriculas = JSON.parse(localStorage.getItem('matriculas')) || [];
+
+    if (!matriculas.includes(courseId)) {
+      matriculas.push(Number(courseId));
+      localStorage.setItem('matriculas', JSON.stringify(matriculas));
+
+      this.showSuccessMessage(`Matrícula confirmada em "${courseTitle}"!`);
+    } else {
+      this.showInfoMessage(`Você já está matriculado em "${courseTitle}"`);
     }
+  }
 
-    enrollInCourse(courseId, courseTitle) {
-        let matriculas = JSON.parse(localStorage.getItem('matriculas')) || [];
-        
-        if (!matriculas.includes(courseId)) {
-            matriculas.push(Number(courseId));
-            localStorage.setItem('matriculas', JSON.stringify(matriculas));
-            
-            this.showSuccessMessage(`Matrícula confirmada em "${courseTitle}"!`);
-        } else {
-            this.showInfoMessage(`Você já está matriculado em "${courseTitle}"`);
-        }
-    }
+  showSuccessMessage(message) {
+    this.showMessage(message, 'success');
+  }
 
-    showSuccessMessage(message) {
-        this.showMessage(message, 'success');
-    }
+  showInfoMessage(message) {
+    this.showMessage(message, 'info');
+  }
 
-    showInfoMessage(message) {
-        this.showMessage(message, 'info');
-    }
+  showError(message) {
+    this.showMessage(message, 'error');
+  }
 
-    showError(message) {
-        this.showMessage(message, 'error');
-    }
-
-    showMessage(message, type = 'info') {
-        const messageDiv = document.createElement('div');
-        messageDiv.className = `message message-${type}`;
-        messageDiv.innerHTML = `
+  showMessage(message, type = 'info') {
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message message-${type}`;
+    messageDiv.innerHTML = `
             <i class="fas fa-${type === 'success' ? 'check' : type === 'error' ? 'exclamation-triangle' : 'info'}"></i>
             <span>${message}</span>
         `;
-        
-        document.body.appendChild(messageDiv);
-        
-        setTimeout(() => {
-            messageDiv.classList.add('show');
-        }, 100);
-        
-        setTimeout(() => {
-            messageDiv.classList.remove('show');
-            setTimeout(() => {
-                document.body.removeChild(messageDiv);
-            }, 300);
-        }, 4000);
-    }
 
-    filterCategories(searchTerm) {
-        const categories = document.querySelectorAll('.category-card');
-        const term = searchTerm.toLowerCase();
-        
-        categories.forEach(card => {
-            const title = card.querySelector('h3').textContent.toLowerCase();
-            const description = card.querySelector('p').textContent.toLowerCase();
-            
-            if (title.includes(term) || description.includes(term)) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    }
+    document.body.appendChild(messageDiv);
 
-    filterCategoriesByCategory(selectedCategory) {
-        const categories = document.querySelectorAll('.category-card');
-        
-        categories.forEach(card => {
-            const category = card.dataset.category;
-            
-            if (!selectedCategory || category === selectedCategory) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    }
+    setTimeout(() => {
+      messageDiv.classList.add('show');
+    }, 100);
+
+    setTimeout(() => {
+      messageDiv.classList.remove('show');
+      setTimeout(() => {
+        document.body.removeChild(messageDiv);
+      }, 300);
+    }, 4000);
+  }
+
+  filterCategories(searchTerm) {
+    const categories = document.querySelectorAll('.category-card');
+    const term = searchTerm.toLowerCase();
+
+    categories.forEach(card => {
+      const title = card.querySelector('h3').textContent.toLowerCase();
+      const description = card.querySelector('p').textContent.toLowerCase();
+
+      if (title.includes(term) || description.includes(term)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  filterCategoriesByCategory(selectedCategory) {
+    const categories = document.querySelectorAll('.category-card');
+
+    categories.forEach(card => {
+      const category = card.dataset.category;
+
+      if (!selectedCategory || category === selectedCategory) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
 }
 
 // Inicializar quando o DOM estiver carregado
 document.addEventListener('DOMContentLoaded', () => {
-    new CourseEnrollment();
+  new CourseEnrollment();
 });
 
 // Adicionar estilos para mensagens

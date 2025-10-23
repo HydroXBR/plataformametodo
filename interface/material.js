@@ -28,7 +28,7 @@ function criarGradeMaterias() {
 
     voltarLink.href = "/eja";
     voltarLink.style.display = "none";
-    voltarLink.dataset.context = "materias"; 
+    voltarLink.dataset.context = "materias";
 
     gradeMaterias.innerHTML = materias.map(materia => `
         <div class="materia-card" data-materia="${materia}">
@@ -50,7 +50,7 @@ function carregarConteudos(materia) {
 
     gradeMaterias.style.display = "none";
     conteudosMateria.style.display = "inline";
-    voltarLink.style.display = "inline"; 
+    voltarLink.style.display = "inline";
     voltarLink.dataset.context = "conteudos";
 
     if (conteudos[materia]) {

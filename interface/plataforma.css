@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
@@ -254,7 +255,7 @@ html, body {
     background: linear-gradient(135deg, #00072b 0%, #0C1248 100%);
     color: #fff;
     padding: 50px 20px 30px;
-    margin-top: 0; 
+    margin-top: 0;
     width: 100%;
 }
 
@@ -325,21 +326,20 @@ html, body {
     width: 150px;
 }
 
-/* === RESET E CONFIGURAÇÕES GERAIS === */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     color: #333;
 }
 
-/* === SEÇÃO PRINCIPAL MODERNIZADA === */
 .bottom-content {
     width: 100%;
     min-height: 100vh;
@@ -352,7 +352,7 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Agora pega toda a tela */
+    width: 100%;
     height: 100%;
     z-index: 1;
 }
@@ -363,7 +363,6 @@ html, body {
     object-fit: cover;
 }
 
-/* Remove o gradiente overlay */
 .background-image::after {
     display: none;
 }
@@ -378,7 +377,6 @@ html, body {
     height: 100%;
 }
 
-/* === CONTAINER DOS BOTÕES DIREITA === */
 .botoes-direita {
     position: absolute;
     top: 50%;
@@ -392,7 +390,6 @@ html, body {
     max-width: 750px;
 }
 
-/* === BOTÕES MODERNOS === */
 .botao-retangular {
     width: 100%;
     min-height: 110px;
@@ -403,7 +400,7 @@ html, body {
     align-items: center;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    box-shadow: 
+    box-shadow:
         0 8px 30px rgba(0, 0, 0, 0.12),
         0 2px 8px rgba(0, 0, 0, 0.06);
     text-decoration: none;
@@ -412,7 +409,6 @@ html, body {
     padding: 0 5px;
 }
 
-/* Efeito de brilho no hover */
 .botao-retangular::before {
     content: '';
     position: absolute;
@@ -420,16 +416,16 @@ html, body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, 
-        transparent, 
-        rgba(254, 0, 0, 0.08), 
-        transparent);
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(254, 0, 0, 0.08),
+            transparent);
     transition: left 0.6s ease;
 }
 
 .botao-retangular:hover {
     transform: translateX(-12px) translateY(-3px);
-    box-shadow: 
+    box-shadow:
         0 15px 35px rgba(0, 0, 0, 0.18),
         0 5px 15px rgba(254, 0, 0, 0.12);
 }
@@ -438,7 +434,6 @@ html, body {
     left: 100%;
 }
 
-/* Linha lateral colorida */
 .botao-retangular::after {
     content: '';
     position: absolute;
@@ -455,7 +450,6 @@ html, body {
     opacity: 1;
 }
 
-/* Imagem dos botões */
 .botao-retangular img {
     width: 150px;
     height: 70px;
@@ -473,8 +467,7 @@ html, body {
     border-color: #FE0000;
 }
 
-/* Conteúdo textual */
-.botao-retangular > div {
+.botao-retangular>div {
     flex: 1;
     padding: 20px 20px 20px 0;
     display: flex;
@@ -493,7 +486,6 @@ html, body {
     display: inline-block;
 }
 
-/* Linha animada sob o título */
 .botao-retangular span::after {
     content: '';
     position: absolute;
@@ -522,7 +514,6 @@ html, body {
     overflow: hidden;
 }
 
-/* Ícone de seta */
 .botao-retangular .arrow-icon {
     opacity: 0;
     transform: translateX(-10px);
@@ -538,16 +529,15 @@ html, body {
     transform: translateX(0);
 }
 
-/* Efeito de brilho no fundo */
 .botao-retangular .hover-glow {
     position: absolute;
     top: -50%;
     left: -50%;
     width: 200%;
     height: 200%;
-    background: radial-gradient(circle, 
-        rgba(254, 0, 0, 0.08) 0%, 
-        transparent 70%);
+    background: radial-gradient(circle,
+            rgba(254, 0, 0, 0.08) 0%,
+            transparent 70%);
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;
@@ -557,12 +547,12 @@ html, body {
     opacity: 1;
 }
 
-/* === ANIMAÇÕES DE ENTRADA === */
 @keyframes slideInFromRight {
     from {
         opacity: 0;
         transform: translateX(40px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -574,19 +564,32 @@ html, body {
     opacity: 0;
 }
 
-.botao-retangular:nth-child(1) { animation-delay: 0.1s; }
-.botao-retangular:nth-child(2) { animation-delay: 0.2s; }
-.botao-retangular:nth-child(3) { animation-delay: 0.3s; }
-.botao-retangular:nth-child(4) { animation-delay: 0.4s; }
-.botao-retangular:nth-child(5) { animation-delay: 0.5s; }
+.botao-retangular:nth-child(1) {
+    animation-delay: 0.1s;
+}
 
-/* === RESPONSIVIDADE === */
+.botao-retangular:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.botao-retangular:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.botao-retangular:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.botao-retangular:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
 @media (max-width: 1200px) {
     .botoes-direita {
         width: 50%;
         right: 3%;
     }
-    
+
     .background-image {
         width: 50%;
     }
@@ -598,20 +601,20 @@ html, body {
         min-height: auto;
         padding: 60px 0;
     }
-    
+
     .background-image {
         position: relative;
         width: 100%;
         height: 300px;
     }
-    
+
     .background-image::after {
-        background: linear-gradient(180deg, 
-            rgba(12, 18, 72, 0.95) 0%, 
-            rgba(12, 18, 72, 0.8) 50%, 
-            transparent 100%);
+        background: linear-gradient(180deg,
+                rgba(12, 18, 72, 0.95) 0%,
+                rgba(12, 18, 72, 0.8) 50%,
+                transparent 100%);
     }
-    
+
     .botoes-direita {
         position: relative;
         width: 90%;
@@ -629,29 +632,29 @@ html, body {
         width: 95%;
         gap: 15px;
     }
-    
+
     .botao-retangular {
         min-height: 100px;
     }
-    
+
     .botao-retangular img {
         width: 60px;
         height: 60px;
         margin: 0 15px;
     }
-    
-    .botao-retangular > div {
+
+    .botao-retangular>div {
         padding: 15px 15px 15px 0;
     }
-    
+
     .botao-retangular span {
         font-size: 14px;
     }
-    
+
     .botao-retangular p {
         font-size: 11px;
     }
-    
+
     .botao-retangular:hover {
         transform: translateX(-8px) translateY(-2px);
     }
@@ -662,47 +665,44 @@ html, body {
         min-height: 90px;
         border-radius: 12px;
     }
-    
+
     .botao-retangular img {
         width: 50px;
         height: 50px;
         margin: 0 12px;
     }
-    
-    .botao-retangular > div {
+
+    .botao-retangular>div {
         padding: 12px 12px 12px 0;
     }
-    
+
     .botao-retangular span {
         font-size: 13px;
     }
-    
+
     .botao-retangular p {
         font-size: 10px;
         -webkit-line-clamp: 2;
     }
-    
+
     .arrow-icon {
         font-size: 14px;
         margin-right: 15px;
     }
 }
 
-/* === ACESSIBILIDADE === */
 .botao-retangular:focus {
     outline: none;
-    box-shadow: 
+    box-shadow:
         0 0 0 3px rgba(254, 0, 0, 0.3),
         0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
-/* === MELHORIAS DE PERFORMANCE === */
 .botao-retangular {
     will-change: transform;
     backface-visibility: hidden;
 }
 
-/* === ESTADOS ESPECIAIS === */
 .botao-retangular:active {
     transform: translateX(-8px) translateY(-1px);
     transition: transform 0.1s ease;
