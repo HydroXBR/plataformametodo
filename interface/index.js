@@ -34,3 +34,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setInterval(showNextImage, 5000);
 });
+
+window.localStorage.clear()
