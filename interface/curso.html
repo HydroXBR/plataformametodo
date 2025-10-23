@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso | Método Aprova+</title>
+    <link rel="stylesheet" href="curso.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/jryH3q8/Min-Branca.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <a href="/"><img src="/src?id=logo&format=png" alt="Logo Método" class="logo-img"></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-links1">
+                <li><a href="/quemsomos">Quem somos</a></li>
+                <li><a href="/matricular">Cursos Técnicos</a></li>
+                <li><a href="/matricular">Cadastre-se</a></li>
+                <li><a href="/matricular">Certificados</a></li>
+            </ul>
+            <ul class="nav-links" id="nav-links2">
+                <li id="login"><a id="login" href="/plataforma" class="btn-login">Login</a></li>
+                <li><a href="/#"><img id="profile" src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png"
+                            alt="Foto de Perfil" class="profile-picture"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="curso-container">
+        <section class="curso-header">
+            <div class="curso-header-content">
+                <img id="curso-img" src="" alt="Imagem do Curso">
+                <div class="curso-info">
+                    <h1 id="curso-titulo"></h1>
+                    <p id="curso-desc"></p>
+
+                    <div class="curso-meta">
+                        <div class="meta-item">
+                            <i class="far fa-clock"></i>
+                            <span id="curso-duracao">Carregando...</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="far fa-play-circle"></i>
+                            <span id="curso-aulas">Carregando...</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="far fa-star"></i>
+                            <span id="curso-avaliacao">Carregando...</span>
+                        </div>
+                    </div>
+
+                    <button id="btn-voltar" class="btn-voltar">
+                        <i class="fas fa-arrow-left"></i>
+                        Voltar para Meus Cursos
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="curso-content">
+            <div class="media-section" id="media-section">
+                <div class="media-header">
+                    <h3 id="media-titulo">Selecione uma aula para começar</h3>
+                    <div class="media-controls">
+                        <button id="btn-anterior" title="Aula anterior"><i class="fas fa-chevron-left"></i></button>
+                        <button id="btn-proxima" title="Próxima aula"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+                <div class="media-player">
+                    <div id="media-placeholder" class="media-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <p>Selecione uma aula para visualizar o conteúdo</p>
+                    </div>
+                    <iframe id="media-iframe" style="display: none;"></iframe>
+                </div>
+                <div class="media-description">
+                    <h4>Descrição da aula</h4>
+                    <p id="media-descricao">A descrição da aula aparecerá aqui quando você selecionar uma aula.</p>
+                </div>
+            </div>
+
+            <aside class="aulas-menu" id="aulas-menu">
+                <div class="aulas-header">
+                    <h2>Conteúdo do Curso</h2>
+                    <span id="total-aulas">Carregando...</span>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div class="progress-text" id="progress-text">0% concluído</div>
+
+                <div class="aulas-list" id="aulas-list">
+                    <p>Carregando aulas...</p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/src?id=logo&format=png" alt="Método Aprova+">
+            </div>
+            <div class="footer-info">
+                <h2>Método Aprova+</h2>
+                <p><i class="fas fa-phone"></i> <strong>Contato:</strong> +55 92 9486-0365</p>
+                <p><i class="fab fa-instagram"></i> <strong>Instagram:</strong> @metodo.prevest</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua Elisa Lispector, 513, Tarumã,
+                    Manaus - AM</p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/metodo.prevest"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@metodoprevestibular"><i class="fab fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=559294860365"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Método Aprova+. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="curso.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1408 @@
+{
+  "Administração": [
+    {
+      "id": 1,
+      "titulo": "Gestão Empresarial",
+      "descricao": "Aprenda a gerenciar todos os aspectos de uma empresa, desde operações até recursos humanos. Desenvolva habilidades para tomar decisões estratégicas e otimizar processos organizacionais.",
+      "imagem": "https://sebrae.com.br/Sebrae/Portal%20Sebrae/EAD2/Capa/Atualizados/xcapa_gestao-empresarial-integrada_iStock-951514270.png.pagespeed.ic.G-spnwhjzB.jpg",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "titulo": "Empreendedorismo e Inovação",
+      "descricao": "Descubra como transformar ideias em negócios de sucesso. Desenvolva mentalidade empreendedora e aprenda técnicas de inovação para criar empresas competitivas e sustentáveis.",
+      "imagem": "https://acqio.com.br/wp-content/uploads/2022/10/tipos-empreendedorismo-destaque.jpg",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "titulo": "Administração Financeira",
+      "descricao": "Domine os princípios da gestão financeira empresarial. Aprenda a analisar demonstrações financeiras, controlar custos e tomar decisões de investimento com segurança.",
+      "imagem": "https://files.sunoresearch.com.br/p/uploads/2017/12/financas-pessoais.jpg.jpg",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "titulo": "Gestão de Projetos",
+      "descricao": "Torne-se um especialista em gerenciar projetos do início ao fim. Aprenda metodologias ágeis, controle de prazos, orçamentos e equipes para entregar resultados excepcionais.",
+      "imagem": "https://blog.auddas.com/wp-content/uploads/2024/02/Gestao-de-projetos-o-que-e-como-fazer-desafios-e-beneficios-scaled.jpg",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "titulo": "Planejamento Estratégico",
+      "descricao": "Desenvolva visão estratégica para guiar organizações ao sucesso. Aprenda a analisar mercados, definir metas e criar planos de ação eficazes para o crescimento sustentável.",
+      "imagem": "https://media.treasy.com.br/media/2014/02/imagem13-1.jpg",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "titulo": "Inteligência Artificial nos Negócios",
+      "descricao": "Aprenda a integrar IA em processos administrativos e de gestão para aumentar a eficiência e competitividade empresarial.",
+      "imagem": "https://cndl.org.br/varejosa/wp-content/uploads/2024/04/Inteligencia-Artificial-Generativa.jpg",
+      "link": ""
+    },
+    {
+      "id": 7,
+      "titulo": "Produção de Eventos",
+      "descricao": "Descubra como planejar, organizar e executar eventos corporativos, sociais e institucionais com profissionalismo.",
+      "imagem": "https://lets.events/blog/wp-content/uploads/2023/07/Producao-de-eventos.jpg",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "titulo": "Vendas e Atendimento ao Cliente",
+      "descricao": "Domine técnicas de vendas e atendimento, conquistando e fidelizando clientes com excelência e empatia.",
+      "imagem": "",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMusAb3j4a0287uiEfMOj_3cloZI-y7O0chQ&s"
+    },
+    {
+      "id": 9,
+      "titulo": "Código de Defesa do Consumidor para Fornecedores",
+      "descricao": "Conheça os direitos e deveres previstos no CDC e evite problemas legais ao lidar com clientes e produtos.",
+      "imagem": "https://www.acifranca.com.br/images/upload/images/2024/20240313155300yRXQuacJGw.jpg",
+      "link": ""
+    },
+    {
+      "id": 10,
+      "titulo": "Análise de Mercado",
+      "descricao": "Aprenda a coletar e interpretar dados de mercado para embasar decisões estratégicas e identificar oportunidades.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMMj0MTkzjsiF7K6a3FZcCs-Pf5z95dQiJHA&s",
+      "link": ""
+    },
+    {
+      "id": 11,
+      "titulo": "Inclusão de PCD no Trabalho",
+      "descricao": "Compreenda práticas de inclusão de pessoas com deficiência e promova ambientes de trabalho mais diversos.",
+      "imagem": "https://www.fernandesluiz.adv.br/wp-content/uploads/2023/10/escritorio-trabalhadores-pcd-direitos-trabalhistas-1.jpg",
+      "link": ""
+    },
+    {
+      "id": 12,
+      "titulo": "Mediação de Conflitos",
+      "descricao": "Aprenda técnicas eficazes para resolver conflitos no ambiente de trabalho e melhorar a convivência profissional.",
+      "imagem": "https://realizartepalestras.com.br/wp-content/uploads/2025/04/Mediacao-de-conflitos-no-trabalho-o-papel-dos-lideres-na-construcao-de-harmonia.jpg",
+      "link": ""
+    }
+  ],
+  "Agricultura": [
+    {
+      "id": 201,
+      "titulo": "Agricultura Familiar",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 202,
+      "titulo": "Agronegócio Sustentável",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 203,
+      "titulo": "Manejo de Solos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 204,
+      "titulo": "Agricultura Orgânica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 205,
+      "titulo": "Irrigação e Drenagem",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Artes": [
+    {
+      "id": 301,
+      "titulo": "História da Arte",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 302,
+      "titulo": "Desenho Artístico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 303,
+      "titulo": "Pintura em Tela",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 304,
+      "titulo": "Arte Digital",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 305,
+      "titulo": "Escultura Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Assistência Social": [
+    {
+      "id": 401,
+      "titulo": "Políticas Públicas",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 402,
+      "titulo": "Serviço Social Comunitário",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 403,
+      "titulo": "Assistência à Família",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 404,
+      "titulo": "Direitos Sociais",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 405,
+      "titulo": "Projetos Sociais",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Biologia": [
+    {
+      "id": 501,
+      "titulo": "Genética Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 502,
+      "titulo": "Ecologia Aplicada",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 503,
+      "titulo": "Zoologia",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 504,
+      "titulo": "Botânica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 505,
+      "titulo": "Fisiologia Humana",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 10 horas": [
+    {
+      "id": 601,
+      "titulo": "Office Básico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 602,
+      "titulo": "Introdução ao Marketing",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 603,
+      "titulo": "Primeiros Socorros",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 604,
+      "titulo": "Inglês Básico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 605,
+      "titulo": "Educação Financeira",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 20 horas": [
+    {
+      "id": 701,
+      "titulo": "Excel Intermediário",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 702,
+      "titulo": "Gestão de Tempo",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 703,
+      "titulo": "Atendimento ao Cliente",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 704,
+      "titulo": "Design Gráfico Básico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 705,
+      "titulo": "Noções de Direito",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 30 horas": [
+    {
+      "id": 801,
+      "titulo": "Gestão de Projetos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 802,
+      "titulo": "Photoshop Intermediário",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 803,
+      "titulo": "Contabilidade Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 804,
+      "titulo": "Inglês Intermediário",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 805,
+      "titulo": "Segurança do Trabalho",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 40 horas": [
+    {
+      "id": 901,
+      "titulo": "Administração Financeira",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 902,
+      "titulo": "Web Design",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 903,
+      "titulo": "Gestão de Pessoas",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 904,
+      "titulo": "Logística Empresarial",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 905,
+      "titulo": "Marketing Digital",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 50 horas": [
+    {
+      "id": 1001,
+      "titulo": "Análise de Dados",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1002,
+      "titulo": "Gestão da Qualidade",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1003,
+      "titulo": "Desenvolvimento Web",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1004,
+      "titulo": "Comércio Exterior",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1005,
+      "titulo": "Psicologia Organizacional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 60 horas": [
+    {
+      "id": 1101,
+      "titulo": "Gestão Estratégica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1102,
+      "titulo": "Programação Python",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1103,
+      "titulo": "Auditoria Contábil",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1104,
+      "titulo": "Engenharia de Software",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1105,
+      "titulo": "Gestão Ambiental",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Carga horária de 80 horas": [
+    {
+      "id": 1201,
+      "titulo": "MBA em Gestão",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1202,
+      "titulo": "Desenvolvimento Full Stack",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1203,
+      "titulo": "Controladoria",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1204,
+      "titulo": "Gestão de TI",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1205,
+      "titulo": "Consultoria Empresarial",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Concursos Públicos": [
+    {
+      "id": 1301,
+      "titulo": "Português para Concursos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1302,
+      "titulo": "Raciocínio Lógico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1303,
+      "titulo": "Direito Administrativo",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1304,
+      "titulo": "Direito Constitucional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1305,
+      "titulo": "Informática para Concursos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Construção Civil": [
+    {
+      "id": 1401,
+      "titulo": "Leitura de Projetos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1402,
+      "titulo": "Gestão de Obras",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1403,
+      "titulo": "Orçamento na Construção",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1404,
+      "titulo": "Segurança na Construção",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1405,
+      "titulo": "Tecnologias Construtivas",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Contabilidade e Finanças": [
+    {
+      "id": 1501,
+      "titulo": "Contabilidade Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1502,
+      "titulo": "Análise de Balanços",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1503,
+      "titulo": "Gestão Financeira",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1504,
+      "titulo": "Controladoria",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1505,
+      "titulo": "Auditoria Contábil",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Direito": [
+    {
+      "id": 1601,
+      "titulo": "Direito Civil",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1602,
+      "titulo": "Direito Penal",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1603,
+      "titulo": "Direito Trabalhista",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1604,
+      "titulo": "Direito Constitucional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1605,
+      "titulo": "Direito Administrativo",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Educação": [
+    {
+      "id": 1701,
+      "titulo": "Didática Geral",
+      "descricao": "Estudo dos princípios, métodos e práticas de ensino que orientam o trabalho docente, com foco na construção do processo de aprendizagem.",
+      "imagem": "https://plataforma.hexag.online/imagemsite/696/professora-ensino.jpg",
+      "link": ""
+    },
+    {
+      "id": 1702,
+      "titulo": "Psicologia da Educação",
+      "descricao": "Compreensão dos aspectos psicológicos que influenciam o desenvolvimento, a aprendizagem e o comportamento dos estudantes no ambiente escolar.",
+      "imagem": "https://blog.khanacademy.org/wp-content/uploads/2023/04/Imagem-do-WhatsApp-de-2023-04-26-as-14.47.34-768x512.jpg",
+      "link": ""
+    },
+    {
+      "id": 1703,
+      "titulo": "Gestão Escolar",
+      "descricao": "Aborda os fundamentos e práticas da administração educacional, promovendo uma visão integrada da organização e liderança no contexto escolar.",
+      "imagem": "https://www.apoioestrategico.com.br/blog/wp-content/uploads/2023/03/gestao-escolar.jpg",
+      "link": ""
+    },
+    {
+      "id": 1704,
+      "titulo": "Educação Inclusiva",
+      "descricao": "Discute estratégias pedagógicas e políticas que asseguram o direito à educação de todos, com foco na diversidade e na acessibilidade.",
+      "imagem": "https://civiam.com.br/wp-content/uploads/2023/01/inclusao-sala-de-aula-1024x683.jpg",
+      "link": ""
+    },
+    {
+      "id": 4513,
+      "titulo": "Gamificação na Língua Portuguesa",
+      "descricao": "Explora o uso de elementos de jogos no ensino da Língua Portuguesa para tornar o aprendizado mais dinâmico, motivador e interativo.",
+      "imagem": "https://media.istockphoto.com/id/178456596/pt/foto/professor-ajudando-boy-a-usar-tablet-digital-no-computador-turma.jpg?s=612x612&w=0&k=20&c=xlapZh2EsHEdxUYnJPdUxjz0207eRrpyqpKMuPbtC3g=",
+      "link": ""
+    },
+    {
+      "id": 4512,
+      "titulo": "Gamificação na Matemática",
+      "duracao": "10 horas",
+      "descricao": "Este curso explora o desenvolvimento de sistemas gamificados eficazes, abrangendo elementos como Badges, Pontuação e Níveis de Desafio. O objetivo é dotar o educador de competências para integrar metodologias lúdicas, elevando o engajamento discente e otimizando a aquisição de conceitos matemáticos complexos.",
+      "imagem": "https://img.freepik.com/fotos-premium/grupo-de-alunos-adolescentes-usando-computadores-em-sala-de-aula-estudando_236854-50292.jpg",
+      "link": ""
+    }
+  ],
+  "ENEM": [
+    {
+      "id": 1801,
+      "titulo": "Matemática ENEM",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1802,
+      "titulo": "Redação ENEM",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1803,
+      "titulo": "Ciências Humanas ENEM",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1804,
+      "titulo": "Ciências da Natureza ENEM",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1805,
+      "titulo": "Linguagens ENEM",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Gastronomia": [
+    {
+      "id": 1901,
+      "titulo": "Culinária Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1902,
+      "titulo": "Confeitaria",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1903,
+      "titulo": "Panificação",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1904,
+      "titulo": "Gastronomia Internacional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 1905,
+      "titulo": "Gestão de Restaurantes",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Gestão de Pessoas": [
+    {
+      "id": 2001,
+      "titulo": "Recrutamento e Seleção",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2002,
+      "titulo": "Treinamento e Desenvolvimento",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2003,
+      "titulo": "Gestão por Competências",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2004,
+      "titulo": "Cargos e Salários",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2005,
+      "titulo": "Clima Organizacional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Idiomas": [
+    {
+      "id": 2101,
+      "titulo": "Inglês Básico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2102,
+      "titulo": "Espanhol Intermediário",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2103,
+      "titulo": "Francês Iniciante",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2104,
+      "titulo": "Italiano Básico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2105,
+      "titulo": "Português para Estrangeiros",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Indústria e Tecnologia": [
+    {
+      "id": 2201,
+      "titulo": "Automação Industrial",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2202,
+      "titulo": "Industria 4.0",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2203,
+      "titulo": "Gestão da Produção",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2204,
+      "titulo": "Manutenção Industrial",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2205,
+      "titulo": "Qualidade Industrial",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Informática": [
+    {
+      "id": 2301,
+      "titulo": "Windows 10",
+      "descricao": "Domine o sistema operacional da Microsoft do básico ao avançado.",
+      "imagem": "https://s2-techtudo.glbimg.com/3dtjJ6qCYpDoSwzpKP47e3XhrcA=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2017/M/b/H0vSriQWuVyOcaTiwt2g/windows-10-s-e-restrito-a-apps-da-loja-oficial.png",
+      "link": ""
+    },
+    {
+      "id": 2306,
+      "titulo": "Inteligência Artificial nos Negócios",
+      "descricao": "Aprenda a aplicar IA em processos corporativos, otimizando decisões e resultados empresariais.",
+      "imagem": "https://itforum.com.br/wp-content/uploads/2024/02/inteligencia-artificial-negocios.jpg",
+      "link": ""
+    },
+    {
+      "id": 2307,
+      "titulo": "Criação de Imagens com Nano Banana",
+      "descricao": "Descubra como gerar imagens incríveis com a IA Nano Banana e criar conteúdo visual profissional.",
+      "imagem": "https://blogreydigital.com/wp-content/uploads/2025/09/O-que-e-Nano-Banana-Guia-Completo-da-IA-de-Imagens-do-Google.jpg",
+      "link": ""
+    },
+    {
+      "id": 2308,
+      "titulo": "Vibe Coding com Lovable",
+      "descricao": "Domine o ambiente Lovable e aprenda programação criativa com ferramentas modernas e intuitivas.",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Jo3cVvNmq-FqXd1oV3dWyxig1f09pIsjtw&s",
+      "link": ""
+    },
+    {
+      "id": 2309,
+      "titulo": "Marketing e IA",
+      "descricao": "Explore o uso de inteligência artificial para otimizar campanhas, gerar leads e analisar resultados.",
+      "imagem": "https://img.odcdn.com.br/wp-content/uploads/2024/09/shutterstock_2473588721-1920x1080.jpg",
+      "link": ""
+    },
+    {
+      "id": 2310,
+      "titulo": "Inteligência Artificial",
+      "descricao": "Entenda os fundamentos da IA, suas aplicações práticas e como ela está transformando o mundo.",
+      "imagem": "https://base.digital/images/wz2qzed1/site-prod/38282d55f27b11ff87bc450cd41a54d9de74e8bc-3840x2400.jpg/Capa.jpg?w=2032&fm=webp&q=85",
+      "link": ""
+    },
+    {
+      "id": 2311,
+      "titulo": "Criação de Vídeos com VEO3",
+      "descricao": "Aprenda a criar vídeos automáticos com o VEO3, usando IA para roteirizar e editar com qualidade.",
+      "imagem": "https://blog.api.v4company.com/wp-content/uploads/2025/05/Capa-Google-Vo3.jpg",
+      "link": ""
+    },
+    {
+      "id": 2312,
+      "titulo": "Imagens Comerciais com Inteligência Artificial",
+      "descricao": "Use IA para gerar imagens realistas e atrativas voltadas para campanhas e catálogos de produtos.",
+      "imagem": "https://www.narwalsistemas.com.br/wp-content/uploads/2024/10/ia-comercio-exterior-capa.jpg",
+      "link": ""
+    },
+    {
+      "id": 2313,
+      "titulo": "Assistente de Atendimento com Make",
+      "descricao": "Automatize atendimentos e fluxos de resposta com o Make, criando assistentes virtuais inteligentes.",
+      "imagem": "https://iablog.com.br/wp-content/uploads/2025/03/make.com_.jpg",
+      "link": ""
+    },
+    {
+      "id": 2314,
+      "titulo": "Social Media com ChatGPT",
+      "descricao": "Descubra como usar o ChatGPT para criar legendas, posts e estratégias eficazes em redes sociais.",
+      "imagem": "https://i.ytimg.com/vi/UcPkFaYxDpE/maxresdefault.jpg",
+      "link": ""
+    },
+    {
+      "id": 2315,
+      "titulo": "ChatGPT para Produção de Conteúdo",
+      "descricao": "Aprenda a usar o ChatGPT para redigir textos, roteiros e materiais criativos com agilidade e coesão.",
+      "imagem": "https://neilpatel.com/wp-content/uploads/2023/03/chatgpt.jpg",
+      "link": ""
+    },
+    {
+      "id": 2316,
+      "titulo": "ChatGPT para Aprendizado",
+      "descricao": "Use o ChatGPT como ferramenta de estudo, revisão e apoio em diversas disciplinas e temas acadêmicos.",
+      "imagem": "https://s2-techtudo.glbimg.com/1DpxIahgpmJmg3JAwTcs4nC0jvk=/0x0:7360x4912/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/J/U/MXB7xXRaW97wLoopuZSA/bate-papo-ai-aberto-no-laptop-1-.jpg",
+      "link": ""
+    },
+    {
+      "id": 2317,
+      "titulo": "ChatGPT para Iniciantes",
+      "descricao": "Aprenda o básico do ChatGPT, como criar prompts eficazes e aplicar no dia a dia pessoal e profissional.",
+      "imagem": "https://istoedinheiro.com.br/wp-content/uploads/sites/17/2025/06/69953077_303.jpg",
+      "link": ""
+    },
+    {
+      "id": 2318,
+      "titulo": "ManyChat",
+      "descricao": "Domine o ManyChat e crie bots de automação para WhatsApp e redes sociais sem precisar programar.",
+      "imagem": "https://mccdn.me/martech/blog/2017/08/HeroBackground.jpg",
+      "link": ""
+    },
+    {
+      "id": 2319,
+      "titulo": "Assistente Virtual Online",
+      "descricao": "Torne-se um assistente virtual profissional e aprenda a gerenciar tarefas e clientes à distância.",
+      "imagem": "https://smallbusiness-staging.s3.amazonaws.com/uploads/2019/09/AdobeStock_164361077.jpg",
+      "link": ""
+    },
+    {
+      "id": 2320,
+      "titulo": "Análise de Dados",
+      "descricao": "Aprenda a coletar, organizar e interpretar dados para apoiar decisões com base em evidências.",
+      "imagem": "https://blog.zooxsmart.com/hubfs/Capa---Artigo-de-Blog_-Analise-de-dados.jpg",
+      "link": ""
+    },
+    {
+      "id": 2321,
+      "titulo": "Computação Forense",
+      "descricao": "Descubra como investigar crimes digitais e recuperar informações em dispositivos e redes.",
+      "imagem": "https://www.contabeis.com.br/assets/img/news/671955f233a6b8c366b96fbc798aad61.jpg",
+      "link": ""
+    },
+    {
+      "id": 2322,
+      "titulo": "Edição de Vídeo com CapCut",
+      "descricao": "Aprenda técnicas de corte, efeitos e legendas no CapCut para criar vídeos impactantes e modernos.",
+      "imagem": "https://files.tecnoblog.net/wp-content/uploads/2021/09/como-usar-o-capcut.jpg",
+      "link": ""
+    }
+  ],
+  "Logística": [
+    {
+      "id": 2401,
+      "titulo": "Gestão de Estoques",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2402,
+      "titulo": "Transporte e Distribuição",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2403,
+      "titulo": "Cadeia de Suprimentos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2404,
+      "titulo": "Armazenagem",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2405,
+      "titulo": "Logística Reversa",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Marketing e Vendas": [
+    {
+      "id": 2501,
+      "titulo": "Marketing Digital",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2502,
+      "titulo": "Técnicas de Vendas",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2503,
+      "titulo": "Gestão de Marcas",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2504,
+      "titulo": "Publicidade e Propaganda",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2505,
+      "titulo": "Marketing de Conteúdo",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Meio Ambiente": [
+    {
+      "id": 2601,
+      "titulo": "Gestão Ambiental",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2602,
+      "titulo": "Sustentabilidade",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2603,
+      "titulo": "Licenciamento Ambiental",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2604,
+      "titulo": "Recursos Hídricos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2605,
+      "titulo": "Energias Renováveis",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Moda": [
+    {
+      "id": 2701,
+      "titulo": "Desenho de Moda",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2702,
+      "titulo": "Modelagem",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2703,
+      "titulo": "Costura Industrial",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2704,
+      "titulo": "História da Moda",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2705,
+      "titulo": "Gestão de Negócios de Moda",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Outros Cursos": [
+    {
+      "id": 2801,
+      "titulo": "Fotografia Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2802,
+      "titulo": "Meditação e Mindfulness",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2803,
+      "titulo": "Jardinagem",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2804,
+      "titulo": "Artesanato",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2805,
+      "titulo": "Culinária Vegana",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Profissões": [
+    {
+      "id": 2901,
+      "titulo": "Auxiliar Administrativo",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2902,
+      "titulo": "Assistente de RH",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2903,
+      "titulo": "Técnico em Informática",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2904,
+      "titulo": "Vendedor Profissional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 2905,
+      "titulo": "Recepcionista",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Psicologia": [
+    {
+      "id": 3001,
+      "titulo": "Psicologia Organizacional",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3002,
+      "titulo": "Psicologia do Desenvolvimento",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3003,
+      "titulo": "Psicologia Social",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3004,
+      "titulo": "Aconselhamento Psicológico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3005,
+      "titulo": "Psicopatologia",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Religião": [
+    {
+      "id": 3101,
+      "titulo": "História das Religiões",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3102,
+      "titulo": "Filosofia da Religião",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3103,
+      "titulo": "Teologia Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3104,
+      "titulo": "Estudo Bíblico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3105,
+      "titulo": "Religiões Afro-brasileiras",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Saúde e Bem-estar": [
+    {
+      "id": 3201,
+      "titulo": "Primeiros Socorros",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3202,
+      "titulo": "Nutrição Básica",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3203,
+      "titulo": "Educação Física",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3204,
+      "titulo": "Saúde Mental",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3205,
+      "titulo": "Yoga e Meditação",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Segurança no Trabalho": [
+    {
+      "id": 3301,
+      "titulo": "NRs Básicas",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3302,
+      "titulo": "Primeiros Socorros",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3303,
+      "titulo": "EPIs e EPCs",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3304,
+      "titulo": "Prevenção de Acidentes",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3305,
+      "titulo": "CIPA",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ],
+  "Turismo": [
+    {
+      "id": 3401,
+      "titulo": "Gestão Turística",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3402,
+      "titulo": "Guiamento Turístico",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3403,
+      "titulo": "Turismo Sustentável",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3404,
+      "titulo": "Eventos Turísticos",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    },
+    {
+      "id": 3405,
+      "titulo": "Hospitalidade",
+      "descricao": "",
+      "imagem": "",
+      "link": ""
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="plataforma.css">
     <link rel="icon" type="image/png" href="https://i.ibb.co/jryH3q8/Min-Branca.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="container">
             <div class="logo-container">
-                <img src="/src?id=logo&format=png" alt="Logo Método" class="logo-img">
+                <a href="/"><img src="/src?id=logo&format=png" alt="Logo Método" class="logo-img"></a>
             </div>
             <button class="hamburger" id="hamburger" aria-label="Abrir menu">
                 <span class="hamburger-line"></span>
@@ -20,14 +23,15 @@
                 <span class="hamburger-line"></span>
             </button>
             <ul class="nav-links" id="nav-links1">
-                <li><a href="/">Estudante</a></li>
-                <li><a href="/sobre">Escola</a></li>
-                <li><a href="/simulados">Planos</a></li>
-                <li><a href="/simulados">Blog</a></li>
+                <li><a href="/quemsomos">Quem somos</a></li>
+                <li><a href="/sobre">Cursos Técnicos</a></li>
+                <li><a href="/simulados">Cadastre-se</a></li>
+                <li><a href="/simulados">Certificados</a></li>
             </ul>
             <ul class="nav-links" id="nav-links2">
-                <li id="login"><a id="login" href="/" class="btn-login">Sair</a></li>
-                <li><a href="/#"><img id="profile" src="/src?id=pacheco&format=png" alt="Foto de Perfil" class="profile-picture"></a></li>
+                <li id="login"><a id="login" href="/plataforma" class="btn-login">Login</a></li>
+                <li><a href="/#"><img id="profile" src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png"
+                            alt="Foto de Perfil" class="profile-picture"></a></li>
             </ul>
         </div>
     </nav>
@@ -37,12 +41,14 @@
             <img src="/src?id=escolha&format=png" alt="Por que ser Método Aprova+">
         </div>
         <div class="botoes-direita">
-            <a href="/tocantins.html" class="botao-retangular">
+            <a href="/cursostecnicos.html" class="botao-retangular">
                 <img src="/src?id=tocantins&format=png" alt="Pré-Vestibular">
                 <div>
-                    <span>MÉTODO APROVA+ TOCANTINS</span>
-                    <p>A melhor preparação para os vestibulares de Tocantins!</p>
+                    <span>MÉTODO APROVA+ CURSOS TÉCNICOS</span>
+                    <p>Faça seu curso técnico na melhor plataforma de estudo do Amapá.</p>
                 </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+                <div class="hover-glow"></div>
             </a>
             <a href="#" class="botao-retangular">
                 <img src="/src?id=medicina&format=png" alt="Projeto Medicina">
@@ -50,13 +56,17 @@
                     <span>MÉTODO APROVA+ PROJETO MEDICINA</span>
                     <p>Prepare-se para os vestibulares com foco no curso de Medicina.</p>
                 </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+                <div class="hover-glow"></div>
             </a>
-            <a href="/eja.html" class="botao-retangular">
+            <a href="/" class="botao-retangular">
                 <img src="/src?id=eja&format=png" alt="Projeto Medicina">
                 <div>
                     <span>MÉTODO APROVA+ EJA</span>
                     <p>Ensino na modalidade EJA.</p>
                 </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+                <div class="hover-glow"></div>
             </a>
             <a href="#" class="botao-retangular">
                 <img src="/src?id=reforco&format=png" alt="Projeto Medicina">
@@ -64,32 +74,47 @@
                     <span>MÉTODO APROVA+ REFORÇO ESCOLAR</span>
                     <p>Aprimore seu rendimento escolar!</p>
                 </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+                <div class="hover-glow"></div>
             </a>
-            <a href="/pbrasil" class="botao-retangular">
+            <a href="/" class="botao-retangular">
                 <img src="/src?id=prova-brasil&format=png" alt="Projeto Medicina">
                 <div>
                     <span>MÉTODO APROVA+ PROVA BRASIL</span>
                     <p>Prepare-se para a Prova Brasil.</p>
                 </div>
+                <i class="fas fa-arrow-right arrow-icon"></i>
+                <div class="hover-glow"></div>
             </a>
         </div>
     </section>
 
     <footer class="footer">
         <div class="footer-content">
-            <div class="logo">
+            <div class="footer-logo">
                 <img src="/src?id=logo&format=png" alt="Método Aprova+">
             </div>
-    
-            <div class="info">
+            <div class="footer-info">
                 <h2>Método Aprova+</h2>
-                <p>📞 <strong>Contato:</strong> +55 92 9486-0362</p>
-                <p>📷 <strong>Instagram:</strong> @metodo.prevest</p>
-                <p>📍 <strong>Endereço:</strong> Rua Elisa Lispector, 513, Bairro Tarumã, Manaus - AM</p>
+                <p><i class="fas fa-phone"></i> <strong>Contato:</strong> +55 92 9486-0365</p>
+                <p><i class="fab fa-instagram"></i> <strong>Instagram:</strong> @metodo.prevest</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua Elisa Lispector, 513, Tarumã,
+                    Manaus - AM</p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/metodo.prevest"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@metodoprevestibular"><i class="fab fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=559294860365"><i class="fab fa-whatsapp"></i></a>
+                </div>
             </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Método Aprova+. Todos os direitos reservados.</p>
         </div>
     </footer>
 
     <script src="index.js"></script>
 </body>
+
 </html>
