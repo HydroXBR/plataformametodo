@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Método Aprova+</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/jryH3q8/Min-Branca.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <a href="/"><img src="/src?id=logo&format=png" alt="Logo Método" class="logo-img"></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-links1">
+                <li><a href="/quemsomos">Quem somos</a></li>
+                <li><a href="/dashboard">Plataforma</a></li>
+                <li><a href="/dashboard">Cadastre-se</a></li>
+                <li><a href="/dashboard">Preços</a></li>
+            </ul>
+            <ul class="nav-links" id="nav-links2">
+                <li id="login"><a id="login" href="/dashboard" class="btn-login">Login</a></li>
+                <li><a href="/#"><img id="profile" src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png"
+                            alt="Foto de Perfil" class="profile-picture"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="dashboard-container">
+        <section class="welcome-section">
+            <div class="welcome-content">
+                <div class="student-info">
+                    <img src="https://clickpetroleoegas.com.br/wp-content/uploads/2025/10/caio_temponi-1.jpg" alt="Foto do Aluno" class="student-photo">
+                    <div class="student-details">
+                        <h1>Bem-vindo, <span class="student-name">Caio</span>!</h1>
+                        <p>Continue seus estudos e alcance seus objetivos!</p>
+                        <div class="student-stats">
+                            <div class="stat-item">
+                                <span class="stat-value">75%</span>
+                                <span class="stat-label">Progresso Geral</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">12</span>
+                                <span class="stat-label">Simulados Feitos</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">42h</span>
+                                <span class="stat-label">Tempo de Estudo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-book"></i>
+                        <span>Meus Cursos</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Estatísticas</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>Agenda</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-cog"></i>
+                        <span>Configurações</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="dashboard-content">
+            <section class="courses-section">
+                <h2>Meus Cursos</h2>
+                <div class="courses-grid">
+                    <div class="course-card" data-course="enem">
+                        <div class="course-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>ENEM</h3>
+                        <p>Preparação completa para o Exame Nacional do Ensino Médio</p>
+                        <div class="course-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 65%"></div>
+                            </div>
+                            <span>65% concluído</span>
+                        </div>
+                        <a href="/materias"><button class="btn-access">Acessar Curso</button></a>
+                    </div>
+
+                    <div class="course-card" data-course="psc">
+                        <div class="course-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <h3>PSC</h3>
+                        <p>Processo Seletivo Contínuo da Universidade Federal do Amazonas</p>
+                        <div class="course-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 40%"></div>
+                            </div>
+                            <span>40% concluído</span>
+                        </div>
+                        <a href="/materias"><button class="btn-access">Acessar Curso</button></a>
+                    </div>
+
+                    <div class="course-card" data-course="sis">
+                        <div class="course-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>SIS</h3>
+                        <p>Sistema de Seleção Unificada para universidades públicas</p>
+                        <div class="course-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 30%"></div>
+                            </div>
+                            <span>30% concluído</span>
+                        </div>
+                        <a href="/materias"><button class="btn-access">Acessar Curso</button></a>
+                    </div>
+
+                    <div class="course-card" data-course="uea">
+                        <div class="course-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Vestibular UEA</h3>
+                        <p>Preparação específica para o vestibular da Universidade do Estado do Amazonas</p>
+                        <div class="course-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 55%"></div>
+                            </div>
+                            <span>55% concluído</span>
+                        </div>
+                        <a href="/materias"><button class="btn-access">Acessar Curso</button></a>
+                    </div>
+
+                    <div class="course-card" data-course="uerr">
+                        <div class="course-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h3>Vestibular UERR</h3>
+                        <p>Preparação para o vestibular da Universidade Estadual de Roraima</p>
+                        <div class="course-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 25%"></div>
+                            </div>
+                            <span>25% concluído</span>
+                        </div>
+                        <a href="/materias"><button class="btn-access">Acessar Curso</button></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <h2>Estatísticas de Simulados</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Desempenho por Área</h3>
+                        <div class="chart-container">
+                            <canvas id="subjectChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Evolução de Notas</h3>
+                        <div class="chart-container">
+                            <canvas id="progressChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Comparativo com Média</h3>
+                        <div class="chart-container">
+                            <canvas id="comparisonChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Resumo de Desempenho</h3>
+                        <div class="performance-summary">
+                            <div class="performance-item">
+                                <span class="performance-label">Maior Nota</span>
+                                <span class="performance-value">780</span>
+                            </div>
+                            <div class="performance-item">
+                                <span class="performance-label">Menor Nota</span>
+                                <span class="performance-value">520</span>
+                            </div>
+                            <div class="performance-item">
+                                <span class="performance-label">Média Geral</span>
+                                <span class="performance-value">645</span>
+                            </div>
+                            <div class="performance-item">
+                                <span class="performance-label">Simulados Realizados</span>
+                                <span class="performance-value">12</span>
+                            </div>
+                            <div class="performance-item">
+                                <span class="performance-label">Posição no Ranking</span>
+                                <span class="performance-value">85º</span>
+                            </div>
+                            <div class="performance-item">
+                                <span class="performance-label">Tempo Médio por Questão</span>
+                                <span class="performance-value">2.4min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/src?id=logo&format=png" alt="Método Aprova+">
+            </div>
+            <div class="footer-info">
+                <h2>Método Aprova+</h2>
+                <p><i class="fas fa-phone"></i> <strong>Contato:</strong> +55 92 9486-0365</p>
+                <p><i class="fab fa-instagram"></i> <strong>Instagram:</strong> @metodo.prevest</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua Elisa Lispector, 513, Tarumã,
+                    Manaus - AM</p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/metodo.prevest"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@metodoprevestibular"><i class="fab fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=559294860365"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Método Aprova+. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>

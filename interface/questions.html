@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões | Método Aprova+</title>
+    <link rel="stylesheet" href="questions.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/jryH3q8/Min-Branca.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <a href="/"><img src="/src?id=logo&format=png" alt="Logo Método" class="logo-img"></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-links1">
+                <li><a href="/quemsomos">Quem somos</a></li>
+                <li><a href="/dashboard">Plataforma</a></li>
+                <li><a href="/dashboard">Cadastre-se</a></li>
+                <li><a href="/dashboard">Preços</a></li>
+            </ul>
+            <ul class="nav-links" id="nav-links2">
+                <li id="login"><a id="login" href="/dashboard" class="btn-login">Login</a></li>
+                <li><a href="/#"><img id="profile" src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png"
+                            alt="Foto de Perfil" class="profile-picture"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="questions-container">
+        <section class="questions-header">
+            <div class="questions-header-content">
+                <div class="questions-info">
+                    <h1>Exercícios de Álgebra</h1>
+                    <p>Pratique com questões reais de vestibulares</p>
+
+                    <div class="questions-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-list-ol"></i>
+                            <span>10 questões</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>40 min estimados</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Nível: Médio</span>
+                        </div>
+                    </div>
+
+                    <button id="btn-voltar-materias" class="btn-voltar">
+                        <i class="fas fa-arrow-left"></i>
+                        Voltar
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="questions-content">
+            <div class="question-section">
+                <div class="question-header">
+                    <h3 id="question-title">Questão <span id="question-number">1</span></h3>
+                    <div class="question-controls">
+                        <button id="btn-anterior" title="Questão anterior"><i class="fas fa-chevron-left"></i></button>
+                        <button id="btn-proxima" title="Próxima questão"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="question-card">
+                    <div class="question-origin">
+                        <i class="fas fa-university"></i>
+                        <span id="question-source">PSC-UFAM</span>
+                    </div>
+
+                    <div class="question-text" id="question-text">
+                        Carregando questão...
+                    </div>
+
+                    <div class="options-container" id="options-container">
+                        <!-- As opções serão inseridas via JavaScript -->
+                    </div>
+
+                    <div class="question-feedback" id="question-feedback" style="display: none;">
+                        <div class="feedback-content">
+                            <div class="feedback-header">
+                                <span id="feedback-result" class="feedback-correct">Resposta Correta!</span>
+                                <div class="difficulty-info">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span id="difficulty-level">65% acertaram</span>
+                                </div>
+                            </div>
+                            <div class="explanation" id="explanation">
+                                Explicação da resposta...
+                            </div>
+                            <button class="btn-solution" id="btn-solution">
+                                <i class="fas fa-play-circle"></i>
+                                Ver Resolução em Vídeo
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="question-actions">
+                        <button id="btn-confirmar" class="btn-confirmar" disabled>
+                            Confirmar Resposta
+                        </button>
+                        <button id="btn-continuar" class="btn-continuar" style="display: none;">
+                            Continuar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="progress-menu">
+                <div class="progress-header">
+                    <h2>Seu Progresso</h2>
+                    <span id="progress-count">0/10</span>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div class="progress-text" id="progress-text">0% concluído</div>
+
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-value" id="correct-answers">0</span>
+                        <span class="stat-label">Corretas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="wrong-answers">0</span>
+                        <span class="stat-label">Erradas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value" id="accuracy">0%</span>
+                        <span class="stat-label">Precisão</span>
+                    </div>
+                </div>
+
+                <div class="questions-list" id="questions-list">
+                    <!-- Lista de questões será gerada via JavaScript -->
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/src?id=logo&format=png" alt="Método Aprova+">
+            </div>
+            <div class="footer-info">
+                <h2>Método Aprova+</h2>
+                <p><i class="fas fa-phone"></i> <strong>Contato:</strong> +55 92 9486-0365</p>
+                <p><i class="fab fa-instagram"></i> <strong>Instagram:</strong> @metodo.prevest</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua Elisa Lispector, 513, Tarumã,
+                    Manaus - AM</p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/metodo.prevest"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@metodoprevestibular"><i class="fab fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=559294860365"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Método Aprova+. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="questions.js"></script>
+</body>
+
+</html>

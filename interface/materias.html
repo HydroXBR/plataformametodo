@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionar Matéria | Método Aprova+</title>
+    <link rel="stylesheet" href="curso.css">
+    <link rel="icon" type="image/png" href="https://i.ibb.co/jryH3q8/Min-Branca.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <a href="/"><img src="/src?id=logo&format=png" alt="Logo Método" class="logo-img"></a>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="nav-links1">
+                <li><a href="/quemsomos">Quem somos</a></li>
+                <li><a href="/dashboard">Plataforma</a></li>
+                <li><a href="/dashboard">Cadastre-se</a></li>
+                <li><a href="/dashboard">Preços</a></li>
+            </ul>
+            <ul class="nav-links" id="nav-links2">
+                <li id="login"><a id="login" href="/dashboard" class="btn-login">Login</a></li>
+                <li><a href="/#"><img id="profile" src="https://voxnews.com.br/wp-content/uploads/2017/04/unnamed.png"
+                            alt="Foto de Perfil" class="profile-picture"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="materias-container">
+        <section class="materias-header">
+            <div class="materias-header-content">
+                <div class="curso-info">
+                    <h1 id="curso-titulo">ENEM - Preparação Completa</h1>
+                    <p>Selecione a matéria que deseja estudar</p>
+
+                    <div class="curso-meta">
+                        <div class="meta-item">
+                            <i class="far fa-clock"></i>
+                            <span>120 horas de conteúdo</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="far fa-play-circle"></i>
+                            <span>85 aulas disponíveis</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="far fa-star"></i>
+                            <span>4.8/5 avaliação</span>
+                        </div>
+                    </div>
+
+                    <button id="btn-voltar-dashboard" class="btn-voltar">
+                        <i class="fas fa-arrow-left"></i>
+                        Voltar para Dashboard
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="materias-grid">
+            <div class="materia-card" data-materia="mat">
+                <div class="materia-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+                <h3>Matemática</h3>
+                <p>Álgebra, geometria, trigonometria e matemática básica</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">24 aulas</span>
+                    <span class="progress">65% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="fis">
+                <div class="materia-icon">
+                    <i class="fas fa-atom"></i>
+                </div>
+                <h3>Física</h3>
+                <p>Mecânica, termodinâmica, óptica e eletromagnetismo</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">18 aulas</span>
+                    <span class="progress">40% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="quim">
+                <div class="materia-icon">
+                    <i class="fas fa-flask"></i>
+                </div>
+                <h3>Química</h3>
+                <p>Química geral, orgânica, inorgânica e físico-química</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">16 aulas</span>
+                    <span class="progress">30% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="bio">
+                <div class="materia-icon">
+                    <i class="fas fa-dna"></i>
+                </div>
+                <h3>Biologia</h3>
+                <p>Biologia celular, genética, ecologia e fisiologia</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">20 aulas</span>
+                    <span class="progress">55% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="hist">
+                <div class="materia-icon">
+                    <i class="fas fa-monument"></i>
+                </div>
+                <h3>História</h3>
+                <p>História do Brasil, geral, contemporânea e antiga</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">15 aulas</span>
+                    <span class="progress">45% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="geo">
+                <div class="materia-icon">
+                    <i class="fas fa-globe-americas"></i>
+                </div>
+                <h3>Geografia</h3>
+                <p>Geografia humana, física, do Brasil e geral</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">14 aulas</span>
+                    <span class="progress">35% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="port">
+                <div class="materia-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <h3>Português</h3>
+                <p>Gramática, interpretação de texto e redação</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">22 aulas</span>
+                    <span class="progress">60% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+
+            <div class="materia-card" data-materia="lit">
+                <div class="materia-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>Literatura</h3>
+                <p>Literatura brasileira, portuguesa e escolas literárias</p>
+                <div class="materia-stats">
+                    <span class="aulas-count">12 aulas</span>
+                    <span class="progress">25% concluído</span>
+                </div>
+                <button class="btn-acessar-materia">Acessar Aulas</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="/src?id=logo&format=png" alt="Método Aprova+">
+            </div>
+            <div class="footer-info">
+                <h2>Método Aprova+</h2>
+                <p><i class="fas fa-phone"></i> <strong>Contato:</strong> +55 92 9486-0365</p>
+                <p><i class="fab fa-instagram"></i> <strong>Instagram:</strong> @metodo.prevest</p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> Rua Elisa Lispector, 513, Tarumã,
+                    Manaus - AM</p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/metodo.prevest"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@metodoprevestibular"><i class="fab fa-youtube"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=559294860365"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Método Aprova+. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Navegação para as aulas
+        document.addEventListener('DOMContentLoaded', function() {
+            const materiaCards = document.querySelectorAll('.materia-card');
+            const acessarButtons = document.querySelectorAll('.btn-acessar-materia');
+            
+            // Clique no card inteiro
+            materiaCards.forEach(card => {
+                card.addEventListener('click', function(e) {
+                    if (e.target.classList.contains('btn-acessar-materia') || e.target.closest('.btn-acessar-materia')) {
+                        return;
+                    }
+                    
+                    const materia = this.getAttribute('data-materia');
+                    window.location.href = `/curso.html?materia=${materia}`;
+                });
+            });
+            
+            // Clique no botão de acesso
+            acessarButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const materiaCard = this.closest('.materia-card');
+                    const materia = materiaCard.getAttribute('data-materia');
+                    window.location.href = `/curso.html?materia=${materia}`;
+                });
+            });
+            
+            // Botão voltar para dashboard
+            document.getElementById('btn-voltar-dashboard').addEventListener('click', function() {
+                window.location.href = '/dashboard.html';
+            });
+            
+            // Menu hamburger
+            const hamburger = document.getElementById('hamburger');
+            const navLinks1 = document.getElementById('nav-links1');
+            const navLinks2 = document.getElementById('nav-links2');
+            
+            if (hamburger) {
+                hamburger.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                    navLinks1.classList.toggle('active');
+                    navLinks2.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
